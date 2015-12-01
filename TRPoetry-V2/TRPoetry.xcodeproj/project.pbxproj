@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8517679F1C08473400399141 /* TRPoemListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8517679E1C08473400399141 /* TRPoemListTableViewController.m */; };
+		851767A11C08477900399141 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 851767A01C08477900399141 /* libsqlite3.0.tbd */; };
+		85E32E691C08096C00DC9629 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E32E681C08096C00DC9629 /* main.m */; };
+		85E32E6C1C08096C00DC9629 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E32E6B1C08096C00DC9629 /* AppDelegate.m */; };
+		85E32E721C08096C00DC9629 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E32E701C08096C00DC9629 /* Main.storyboard */; };
+		85E32E741C08096C00DC9629 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85E32E731C08096C00DC9629 /* Assets.xcassets */; };
+		85E32E771C08096C00DC9629 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E32E751C08096C00DC9629 /* LaunchScreen.storyboard */; };
+		85E32E851C080A9300DC9629 /* TRMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E32E841C080A9300DC9629 /* TRMainTableViewController.m */; };
+		85E32E881C080C9900DC9629 /* TRTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E32E871C080C9900DC9629 /* TRTableViewCell.m */; };
+		85E32E8B1C0829CF00DC9629 /* TRPoemCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E32E8A1C0829CF00DC9629 /* TRPoemCategory.m */; };
+		85E32E8E1C0829F200DC9629 /* TRPoem.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E32E8D1C0829F200DC9629 /* TRPoem.m */; };
+		85E32E911C082E1200DC9629 /* TRDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E32E901C082E1200DC9629 /* TRDBManager.m */; };
+		85E32EBB1C082E3500DC9629 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E32E941C082E3500DC9629 /* FMDatabase.m */; };
+		85E32EBC1C082E3500DC9629 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E32E961C082E3500DC9629 /* FMDatabaseAdditions.m */; };
+		85E32EBD1C082E3500DC9629 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E32E981C082E3500DC9629 /* FMDatabasePool.m */; };
+		85E32EBE1C082E3500DC9629 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E32E9A1C082E3500DC9629 /* FMDatabaseQueue.m */; };
+		85E32EBF1C082E3500DC9629 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E32E9D1C082E3500DC9629 /* FMResultSet.m */; };
+		85E32EC01C082E3500DC9629 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 85E32E9F1C082E3500DC9629 /* LICENSE */; };
+		85E32EC11C082E3500DC9629 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E32EA21C082E3500DC9629 /* MASCompositeConstraint.m */; };
+		85E32EC21C082E3500DC9629 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E32EA51C082E3500DC9629 /* MASConstraint.m */; };
+		85E32EC31C082E3500DC9629 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E32EA71C082E3500DC9629 /* MASConstraintMaker.m */; };
+		85E32EC41C082E3500DC9629 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E32EA91C082E3500DC9629 /* MASLayoutConstraint.m */; };
+		85E32EC51C082E3500DC9629 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E32EAD1C082E3500DC9629 /* MASViewAttribute.m */; };
+		85E32EC61C082E3500DC9629 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E32EAF1C082E3500DC9629 /* MASViewConstraint.m */; };
+		85E32EC71C082E3500DC9629 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E32EB11C082E3500DC9629 /* NSArray+MASAdditions.m */; };
+		85E32EC81C082E3500DC9629 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E32EB41C082E3500DC9629 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		85E32EC91C082E3500DC9629 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E32EB61C082E3500DC9629 /* View+MASAdditions.m */; };
+		85E32ECA1C082E3500DC9629 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E32EB91C082E3500DC9629 /* ViewController+MASAdditions.m */; };
+		85E32ECB1C082E3500DC9629 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 85E32EBA1C082E3500DC9629 /* README.md */; };
+		85E32ECE1C082E9600DC9629 /* Poetry.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 85E32ECD1C082E9600DC9629 /* Poetry.bundle */; };
+		85EB91FC1C084FF2008A3966 /* TRPoemDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EB91FB1C084FF2008A3966 /* TRPoemDetailTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8517679D1C08473400399141 /* TRPoemListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRPoemListTableViewController.h; sourceTree = "<group>"; };
+		8517679E1C08473400399141 /* TRPoemListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRPoemListTableViewController.m; sourceTree = "<group>"; };
+		851767A01C08477900399141 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		85E32E641C08096C00DC9629 /* TRPoetry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRPoetry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85E32E681C08096C00DC9629 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85E32E6A1C08096C00DC9629 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		85E32E6B1C08096C00DC9629 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		85E32E711C08096C00DC9629 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85E32E731C08096C00DC9629 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85E32E761C08096C00DC9629 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85E32E781C08096C00DC9629 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85E32E831C080A9300DC9629 /* TRMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRMainTableViewController.h; sourceTree = "<group>"; };
+		85E32E841C080A9300DC9629 /* TRMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRMainTableViewController.m; sourceTree = "<group>"; };
+		85E32E861C080C9900DC9629 /* TRTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRTableViewCell.h; sourceTree = "<group>"; };
+		85E32E871C080C9900DC9629 /* TRTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRTableViewCell.m; sourceTree = "<group>"; };
+		85E32E891C0829CF00DC9629 /* TRPoemCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRPoemCategory.h; sourceTree = "<group>"; };
+		85E32E8A1C0829CF00DC9629 /* TRPoemCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRPoemCategory.m; sourceTree = "<group>"; };
+		85E32E8C1C0829F200DC9629 /* TRPoem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRPoem.h; sourceTree = "<group>"; };
+		85E32E8D1C0829F200DC9629 /* TRPoem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRPoem.m; sourceTree = "<group>"; };
+		85E32E8F1C082E1200DC9629 /* TRDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRDBManager.h; sourceTree = "<group>"; };
+		85E32E901C082E1200DC9629 /* TRDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRDBManager.m; sourceTree = "<group>"; };
+		85E32E931C082E3500DC9629 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		85E32E941C082E3500DC9629 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		85E32E951C082E3500DC9629 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		85E32E961C082E3500DC9629 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		85E32E971C082E3500DC9629 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		85E32E981C082E3500DC9629 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		85E32E991C082E3500DC9629 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		85E32E9A1C082E3500DC9629 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		85E32E9B1C082E3500DC9629 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		85E32E9C1C082E3500DC9629 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		85E32E9D1C082E3500DC9629 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		85E32E9F1C082E3500DC9629 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		85E32EA11C082E3500DC9629 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		85E32EA21C082E3500DC9629 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		85E32EA31C082E3500DC9629 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		85E32EA41C082E3500DC9629 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		85E32EA51C082E3500DC9629 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		85E32EA61C082E3500DC9629 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		85E32EA71C082E3500DC9629 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		85E32EA81C082E3500DC9629 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		85E32EA91C082E3500DC9629 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		85E32EAA1C082E3500DC9629 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		85E32EAB1C082E3500DC9629 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		85E32EAC1C082E3500DC9629 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		85E32EAD1C082E3500DC9629 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		85E32EAE1C082E3500DC9629 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		85E32EAF1C082E3500DC9629 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		85E32EB01C082E3500DC9629 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		85E32EB11C082E3500DC9629 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		85E32EB21C082E3500DC9629 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		85E32EB31C082E3500DC9629 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		85E32EB41C082E3500DC9629 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		85E32EB51C082E3500DC9629 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		85E32EB61C082E3500DC9629 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		85E32EB71C082E3500DC9629 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		85E32EB81C082E3500DC9629 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		85E32EB91C082E3500DC9629 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		85E32EBA1C082E3500DC9629 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		85E32ECD1C082E9600DC9629 /* Poetry.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Poetry.bundle; sourceTree = "<group>"; };
+		85EB91FA1C084FF2008A3966 /* TRPoemDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRPoemDetailTableViewController.h; sourceTree = "<group>"; };
+		85EB91FB1C084FF2008A3966 /* TRPoemDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRPoemDetailTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85E32E611C08096C00DC9629 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851767A11C08477900399141 /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85E32E5B1C08096C00DC9629 = {
+			isa = PBXGroup;
+			children = (
+				851767A01C08477900399141 /* libsqlite3.0.tbd */,
+				85E32E661C08096C00DC9629 /* TRPoetry */,
+				85E32E651C08096C00DC9629 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85E32E651C08096C00DC9629 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85E32E641C08096C00DC9629 /* TRPoetry.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85E32E661C08096C00DC9629 /* TRPoetry */ = {
+			isa = PBXGroup;
+			children = (
+				85E32ECC1C082E8300DC9629 /* Resources */,
+				85E32E7E1C080A5500DC9629 /* Controllers */,
+				85E32E7F1C080A5500DC9629 /* Libraries */,
+				85E32E801C080A5500DC9629 /* Models */,
+				85E32E811C080A5500DC9629 /* Utilities */,
+				85E32E821C080A5500DC9629 /* Views */,
+				85E32E6A1C08096C00DC9629 /* AppDelegate.h */,
+				85E32E6B1C08096C00DC9629 /* AppDelegate.m */,
+				85E32E701C08096C00DC9629 /* Main.storyboard */,
+				85E32E731C08096C00DC9629 /* Assets.xcassets */,
+				85E32E751C08096C00DC9629 /* LaunchScreen.storyboard */,
+				85E32E781C08096C00DC9629 /* Info.plist */,
+				85E32E671C08096C00DC9629 /* Supporting Files */,
+			);
+			path = TRPoetry;
+			sourceTree = "<group>";
+		};
+		85E32E671C08096C00DC9629 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85E32E681C08096C00DC9629 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85E32E7E1C080A5500DC9629 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				85E32E831C080A9300DC9629 /* TRMainTableViewController.h */,
+				85E32E841C080A9300DC9629 /* TRMainTableViewController.m */,
+				8517679D1C08473400399141 /* TRPoemListTableViewController.h */,
+				8517679E1C08473400399141 /* TRPoemListTableViewController.m */,
+				85EB91FA1C084FF2008A3966 /* TRPoemDetailTableViewController.h */,
+				85EB91FB1C084FF2008A3966 /* TRPoemDetailTableViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		85E32E7F1C080A5500DC9629 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				85E32E921C082E3500DC9629 /* fmdb */,
+				85E32E9E1C082E3500DC9629 /* Masonry */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		85E32E801C080A5500DC9629 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				85E32E891C0829CF00DC9629 /* TRPoemCategory.h */,
+				85E32E8A1C0829CF00DC9629 /* TRPoemCategory.m */,
+				85E32E8C1C0829F200DC9629 /* TRPoem.h */,
+				85E32E8D1C0829F200DC9629 /* TRPoem.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		85E32E811C080A5500DC9629 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				85E32E8F1C082E1200DC9629 /* TRDBManager.h */,
+				85E32E901C082E1200DC9629 /* TRDBManager.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		85E32E821C080A5500DC9629 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				85E32E861C080C9900DC9629 /* TRTableViewCell.h */,
+				85E32E871C080C9900DC9629 /* TRTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		85E32E921C082E3500DC9629 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				85E32E931C082E3500DC9629 /* FMDatabase.h */,
+				85E32E941C082E3500DC9629 /* FMDatabase.m */,
+				85E32E951C082E3500DC9629 /* FMDatabaseAdditions.h */,
+				85E32E961C082E3500DC9629 /* FMDatabaseAdditions.m */,
+				85E32E971C082E3500DC9629 /* FMDatabasePool.h */,
+				85E32E981C082E3500DC9629 /* FMDatabasePool.m */,
+				85E32E991C082E3500DC9629 /* FMDatabaseQueue.h */,
+				85E32E9A1C082E3500DC9629 /* FMDatabaseQueue.m */,
+				85E32E9B1C082E3500DC9629 /* FMDB.h */,
+				85E32E9C1C082E3500DC9629 /* FMResultSet.h */,
+				85E32E9D1C082E3500DC9629 /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		85E32E9E1C082E3500DC9629 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				85E32E9F1C082E3500DC9629 /* LICENSE */,
+				85E32EA01C082E3500DC9629 /* Masonry */,
+				85E32EBA1C082E3500DC9629 /* README.md */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		85E32EA01C082E3500DC9629 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				85E32EA11C082E3500DC9629 /* MASCompositeConstraint.h */,
+				85E32EA21C082E3500DC9629 /* MASCompositeConstraint.m */,
+				85E32EA31C082E3500DC9629 /* MASConstraint+Private.h */,
+				85E32EA41C082E3500DC9629 /* MASConstraint.h */,
+				85E32EA51C082E3500DC9629 /* MASConstraint.m */,
+				85E32EA61C082E3500DC9629 /* MASConstraintMaker.h */,
+				85E32EA71C082E3500DC9629 /* MASConstraintMaker.m */,
+				85E32EA81C082E3500DC9629 /* MASLayoutConstraint.h */,
+				85E32EA91C082E3500DC9629 /* MASLayoutConstraint.m */,
+				85E32EAA1C082E3500DC9629 /* Masonry.h */,
+				85E32EAB1C082E3500DC9629 /* MASUtilities.h */,
+				85E32EAC1C082E3500DC9629 /* MASViewAttribute.h */,
+				85E32EAD1C082E3500DC9629 /* MASViewAttribute.m */,
+				85E32EAE1C082E3500DC9629 /* MASViewConstraint.h */,
+				85E32EAF1C082E3500DC9629 /* MASViewConstraint.m */,
+				85E32EB01C082E3500DC9629 /* NSArray+MASAdditions.h */,
+				85E32EB11C082E3500DC9629 /* NSArray+MASAdditions.m */,
+				85E32EB21C082E3500DC9629 /* NSArray+MASShorthandAdditions.h */,
+				85E32EB31C082E3500DC9629 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				85E32EB41C082E3500DC9629 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				85E32EB51C082E3500DC9629 /* View+MASAdditions.h */,
+				85E32EB61C082E3500DC9629 /* View+MASAdditions.m */,
+				85E32EB71C082E3500DC9629 /* View+MASShorthandAdditions.h */,
+				85E32EB81C082E3500DC9629 /* ViewController+MASAdditions.h */,
+				85E32EB91C082E3500DC9629 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		85E32ECC1C082E8300DC9629 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				85E32ECD1C082E9600DC9629 /* Poetry.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85E32E631C08096C00DC9629 /* TRPoetry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85E32E7B1C08096C00DC9629 /* Build configuration list for PBXNativeTarget "TRPoetry" */;
+			buildPhases = (
+				85E32E601C08096C00DC9629 /* Sources */,
+				85E32E611C08096C00DC9629 /* Frameworks */,
+				85E32E621C08096C00DC9629 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRPoetry;
+			productName = TRPoetry;
+			productReference = 85E32E641C08096C00DC9629 /* TRPoetry.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85E32E5C1C08096C00DC9629 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = tarena;
+				TargetAttributes = {
+					85E32E631C08096C00DC9629 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 85E32E5F1C08096C00DC9629 /* Build configuration list for PBXProject "TRPoetry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85E32E5B1C08096C00DC9629;
+			productRefGroup = 85E32E651C08096C00DC9629 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85E32E631C08096C00DC9629 /* TRPoetry */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85E32E621C08096C00DC9629 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85E32ECE1C082E9600DC9629 /* Poetry.bundle in Resources */,
+				85E32E771C08096C00DC9629 /* LaunchScreen.storyboard in Resources */,
+				85E32E741C08096C00DC9629 /* Assets.xcassets in Resources */,
+				85E32EC01C082E3500DC9629 /* LICENSE in Resources */,
+				85E32E721C08096C00DC9629 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85E32E601C08096C00DC9629 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85E32E8E1C0829F200DC9629 /* TRPoem.m in Sources */,
+				85E32EC71C082E3500DC9629 /* NSArray+MASAdditions.m in Sources */,
+				85E32E851C080A9300DC9629 /* TRMainTableViewController.m in Sources */,
+				85E32EC81C082E3500DC9629 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				85E32E881C080C9900DC9629 /* TRTableViewCell.m in Sources */,
+				85E32E911C082E1200DC9629 /* TRDBManager.m in Sources */,
+				85E32EC51C082E3500DC9629 /* MASViewAttribute.m in Sources */,
+				85E32EC41C082E3500DC9629 /* MASLayoutConstraint.m in Sources */,
+				85E32ECB1C082E3500DC9629 /* README.md in Sources */,
+				85E32EC11C082E3500DC9629 /* MASCompositeConstraint.m in Sources */,
+				85E32E6C1C08096C00DC9629 /* AppDelegate.m in Sources */,
+				85E32EBC1C082E3500DC9629 /* FMDatabaseAdditions.m in Sources */,
+				85E32EC61C082E3500DC9629 /* MASViewConstraint.m in Sources */,
+				85E32EBF1C082E3500DC9629 /* FMResultSet.m in Sources */,
+				85E32E8B1C0829CF00DC9629 /* TRPoemCategory.m in Sources */,
+				85E32EBD1C082E3500DC9629 /* FMDatabasePool.m in Sources */,
+				85E32EBE1C082E3500DC9629 /* FMDatabaseQueue.m in Sources */,
+				85E32ECA1C082E3500DC9629 /* ViewController+MASAdditions.m in Sources */,
+				85EB91FC1C084FF2008A3966 /* TRPoemDetailTableViewController.m in Sources */,
+				85E32EC31C082E3500DC9629 /* MASConstraintMaker.m in Sources */,
+				85E32E691C08096C00DC9629 /* main.m in Sources */,
+				8517679F1C08473400399141 /* TRPoemListTableViewController.m in Sources */,
+				85E32EC21C082E3500DC9629 /* MASConstraint.m in Sources */,
+				85E32EBB1C082E3500DC9629 /* FMDatabase.m in Sources */,
+				85E32EC91C082E3500DC9629 /* View+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		85E32E701C08096C00DC9629 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85E32E711C08096C00DC9629 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85E32E751C08096C00DC9629 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85E32E761C08096C00DC9629 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85E32E791C08096C00DC9629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		85E32E7A1C08096C00DC9629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85E32E7C1C08096C00DC9629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TRPoetry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tedu.TRPoetry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85E32E7D1C08096C00DC9629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TRPoetry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tedu.TRPoetry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85E32E5F1C08096C00DC9629 /* Build configuration list for PBXProject "TRPoetry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85E32E791C08096C00DC9629 /* Debug */,
+				85E32E7A1C08096C00DC9629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85E32E7B1C08096C00DC9629 /* Build configuration list for PBXNativeTarget "TRPoetry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85E32E7C1C08096C00DC9629 /* Debug */,
+				85E32E7D1C08096C00DC9629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85E32E5C1C08096C00DC9629 /* Project object */;
+}
